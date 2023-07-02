@@ -1,0 +1,149 @@
+.news {
+  background: linear-gradient(
+    132deg,
+    rgb(243, 243, 243) 0%,
+    rgba(211, 251, 250, 1) 100%
+  );
+}
+
+.news--container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 1rem;
+}
+
+.news--title {
+  text-align: center;
+  padding: 1rem;
+}
+
+.news--left {
+  width: 50%;
+  padding: 2rem;
+}
+
+.news--right {
+  width: 50%;
+}
+
+.news--credits {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+.news--author {
+  font-size: 20px;
+}
+
+.news--date {
+  font-size: 20px;
+}
+
+.news--article--title {
+  padding-bottom: 2rem;
+}
+
+.news--ads {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.news--ads--latest {
+  margin-left: 2rem;
+  border-bottom: gold solid 3px;
+}
+
+.news--ads--viewall {
+  cursor: pointer;
+}
+
+.news--item {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+}
+
+.news--img {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 12px;
+}
+
+.news--columns--text {
+  margin-left: 2rem;
+}
+
+.news--readmore {
+  color: red;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+@media (min-width: 451px) and (max-width: 1279px) {
+  .news {
+    width: 100%;
+  }
+  .news--left {
+    margin: auto;
+  }
+
+  .news--right {
+    width: auto;
+  }
+  .news--container {
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .news--ads {
+    width: 100%;
+  }
+
+  .news--img {
+    max-width: 200px;
+    max-height: 200px;
+  }
+
+  .news--ads--viewall {
+    margin-right: 1rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .news {
+    width: 100%;
+  }
+  .news--left {
+    margin: auto;
+  }
+
+  .news--right {
+    width: auto;
+  }
+  .news--container {
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .news--ads {
+    width: 100%;
+  }
+
+  .news--img {
+    max-width: 200px;
+    max-height: 200px;
+  }
+
+  .news--ads--viewall {
+    margin-right: 1rem;
+  }
+
+  .news--columns--text {
+    margin-left: 0.5rem;
+  }
+}

@@ -1,0 +1,108 @@
+.header {
+  position: relative;
+  height: 10rem;
+  width: 100%;
+  background-color: #f5f9fc;
+}
+
+.header--content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header--logo {
+  padding-top: 3rem;
+  padding-left: 1rem;
+  color: #169fed;
+  width: 20%;
+}
+
+.header--search {
+  position: relative;
+  padding: 3rem 2rem;
+  min-width: 20%;
+}
+
+.header--searchBar {
+  height: 30px;
+  width: 100%;
+  border: solid 1px rgb(24, 38, 93);
+  background-color: #f5f9fc;
+  border-radius: 6px;
+  z-index: 1;
+  display: block;
+  padding: 6px;
+}
+
+.header--mag {
+  position: absolute;
+  top: 3.8rem;
+  right: 2rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  z-index: 2;
+  font-size: 20px;
+}
+
+.header--links {
+  flex-wrap: wrap;
+  padding-top: 3rem;
+}
+
+.header--linkItems {
+  padding-right: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  transition: smooth;
+}
+
+.hamburgerDiv {
+  display: none;
+  position: absolute;
+  z-index: 3;
+}
+
+.header--mobile {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 3rem;
+  right: 0;
+  z-index: 2;
+  background-color: #f5f9fc;
+  padding: 10px;
+  width: 100%;
+  height: 20rem;
+}
+
+.header--hamburgerLinks {
+  margin: auto;
+  text-decoration: none;
+  color: black;
+}
+
+@media (min-width: 1280px) {
+  .header--content {
+    margin: auto;
+    width: 80%;
+  }
+}
+
+@media (min-width: 451px) and (max-width: 1279px) {
+}
+
+@media (max-width: 450px) {
+  .hamburgerDiv {
+    display: contents;
+    position: absolute;
+    right: 3rem;
+    z-index: 3;
+  }
+  .header--linkItems {
+    display: none;
+  }
+}

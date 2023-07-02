@@ -1,0 +1,61 @@
+.community {
+  background-color: aliceblue;
+  color: #169fed;
+}
+
+.community--content {
+  display: flex;
+  flex-direction: row;
+}
+
+.community--left {
+  margin: auto;
+}
+
+.community--right {
+  width: 40%;
+  margin: auto;
+  padding: 1rem;
+}
+
+.community--title {
+  margin-bottom: 2rem;
+}
+
+.community--underline {
+  border-bottom: #169fed 3px solid;
+}
+
+.community--image {
+  max-height: 800px;
+  border-radius: 12px;
+  margin: auto;
+  max-width: 500px;
+}
+
+@media (min-width: 1920px) {
+  .community--content {
+    margin: auto;
+    max-width: 60%;
+  }
+}
+@media (min-width: 451px) and (max-width: 1279px) {
+  .community--content {
+    flex-direction: column;
+  }
+
+  .community--image {
+    margin: auto;
+  }
+}
+
+@media (max-width: 450px) {
+  .community--content {
+    flex-direction: column;
+  }
+
+  .community--image {
+    width: 100%;
+    margin: auto;
+  }
+}

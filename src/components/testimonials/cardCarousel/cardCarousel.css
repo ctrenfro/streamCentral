@@ -1,0 +1,43 @@
+.card--container {
+  display: flex;
+  flex-direction: row;
+}
+
+.card--portrait {
+  width: 100%;
+  padding-top: 10px;
+  max-height: 300px;
+}
+
+.card--image {
+  object-fit: contain;
+  border-radius: 50%;
+  height: 80%;
+  width: 60%;
+}
+
+.card--text {
+  width: 60%;
+  padding: 1rem 1rem;
+}
+
+@media (max-width: 1279px) {
+  .card--portrait {
+    width: 60%;
+  }
+  .card--image {
+    width: 90%;
+  }
+  .card--text {
+    width: 40%;
+    margin: 1rem 0;
+    padding-right: 3rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .card--text {
+    width: 20%;
+    padding: 3rem 0;
+  }
+}
