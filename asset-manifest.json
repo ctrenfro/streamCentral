@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/streamCentral/static/css/main.586c958d.css",
+    "main.js": "/streamCentral/static/js/main.9cafd66f.js",
+    "static/media/footer-bg.jpg": "/streamCentral/static/media/footer-bg.8e6932f6be5fe63f548e.jpg",
+    "index.html": "/streamCentral/index.html",
+    "main.586c958d.css.map": "/streamCentral/static/css/main.586c958d.css.map",
+    "main.9cafd66f.js.map": "/streamCentral/static/js/main.9cafd66f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.586c958d.css",
+    "static/js/main.9cafd66f.js"
+  ]
+}
