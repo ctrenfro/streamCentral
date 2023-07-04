@@ -25,23 +25,11 @@ const Header = () => {
         </div>
 
         <div className="header--links">
-          <a className="header--linkItems" href="/">
-            Browse
+          <a href="/" className="header--linkItems">
+            My Account
           </a>
-          <a className="header--linkItems" href="/">
-            Following
-          </a>
-          <a className="header--linkItems" href="#footer">
-            Contact Us
-          </a>
-          <a className="header--linkItems" href="#testimonials">
-            Testimonials
-          </a>
-          <a className="header--linkItems" href="#community">
-            Community
-          </a>
-          <a className="header--linkItems" href="#news">
-            News
+          <a href="/" className="header--linkItems">
+            Settings
           </a>
         </div>
 
@@ -59,6 +47,7 @@ const Header = () => {
             <a className="header--hamburgerLinks" href="#footer">
               Contact Us
             </a>
+
             <a className="header--hamburgerLinks" href="#testimonials">
               Testimonials
             </a>

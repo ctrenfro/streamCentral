@@ -19,7 +19,7 @@ const HeroBanner = () => {
         </div>
         <div className="heroBanner--right">
           <img
-            src=".\assets\getty-images-c-2Pvr-eQFg-unsplash.jpg"
+            src="/assets/getty-images-c-2Pvr-eQFg-unsplash.jpg"
             alt=""
             className="heroBanner--topImage"
           />

@@ -37,7 +37,7 @@
 
 .header--mag {
   position: absolute;
-  top: 3.8rem;
+  top: 3.6rem;
   right: 2rem;
   background: transparent;
   border: none;
@@ -48,7 +48,6 @@
 }
 
 .header--links {
-  flex-wrap: wrap;
   padding-top: 3rem;
 }
 
@@ -61,7 +60,7 @@
 }
 
 .hamburgerDiv {
-  display: none;
+  right: 3rem;
   position: absolute;
   z-index: 3;
 }
@@ -73,9 +72,12 @@
   top: 3rem;
   right: 0;
   z-index: 2;
+  border-left: #169fed solid 2px;
+  border-bottom: #169fed solid 2px;
+  border-radius: 12px;
   background-color: #f5f9fc;
   padding: 10px;
-  width: 100%;
+  width: 30%;
   height: 20rem;
 }
 
