@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/streamCentral/static/css/main.8d660dc7.css",
-    "main.js": "/streamCentral/static/js/main.56de5c26.js",
+    "main.js": "/streamCentral/static/js/main.1cdf27da.js",
     "static/media/footer-bg.jpg": "/streamCentral/static/media/footer-bg.8e6932f6be5fe63f548e.jpg",
     "index.html": "/streamCentral/index.html",
     "main.8d660dc7.css.map": "/streamCentral/static/css/main.8d660dc7.css.map",
-    "main.56de5c26.js.map": "/streamCentral/static/js/main.56de5c26.js.map"
+    "main.1cdf27da.js.map": "/streamCentral/static/js/main.1cdf27da.js.map"
   },
   "entrypoints": [
     "static/css/main.8d660dc7.css",
-    "static/js/main.56de5c26.js"
+    "static/js/main.1cdf27da.js"
   ]
 }
